@@ -1,0 +1,44 @@
+.cabecalho {
+    justify-content: center;
+    background-color: lightblue;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(94, 91, 91);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 20px;
+        flex-direction: column; 
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cabecalho {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 18px; 
+    }
+
+    .logo {
+        width: 80%;
+    }
+}
+
+
